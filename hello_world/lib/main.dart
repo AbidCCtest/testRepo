@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
       builder: (BuildContext context) {
         return AlertDialog(
           title: const Text("Hello World"),
-          content: const Text("This is a modal dialog."),
+          content: const Text("This is a test dialog."),
           actions: [
             TextButton(
               onPressed: () => Navigator.of(context).pop(),
